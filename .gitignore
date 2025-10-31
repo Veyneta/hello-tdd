@@ -1,0 +1,30 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.class
+
+# TDD (RED step) — temporary ignore to keep first commit only tests
+# Remove these lines before GREEN commit
+/src/main/java/
+/src/main/resources/
+/run-app.cmd
+/test.cmd
+
+
